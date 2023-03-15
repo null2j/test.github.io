@@ -1,12 +1,14 @@
 # test.github.io
 ## Mobile content
-<nav>
-  <ul>
-    {% for item in site.navigation %}
-      <li>
-        <a href="{{ item.url }}">{{ item.text }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+---
+title: "TEST"
+output: 
+  html_document:
+  toc: true
+  toc_float: true
+  toc_collapsed: true
+toc_depth: 3
+number_sections: true
+theme: lumen
+---
 ## Marketing Slogans
