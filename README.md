@@ -1,4 +1,12 @@
 # test.github.io
 ## Mobile content
-![screenshot](https://github.com/null2j/test.github.io/blob/main/screenshot.png)
+<nav>
+  <ul>
+    {% for item in site.navigation %}
+      <li>
+        <a href="{{ item.url }}">{{ item.text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
 ## Marketing Slogans
