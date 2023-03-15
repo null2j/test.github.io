@@ -1,5 +1,5 @@
 # test.github.io
-## Mobile content
+Mobile content
 ---
 title: "TEST"
 output: 
@@ -9,6 +9,6 @@ output:
     toc_collapsed: true
     toc_depth: 3
     number_sections: true
-    theme: lumen
+   
 ---
-## Marketing Slogans
+ Marketing Slogans
